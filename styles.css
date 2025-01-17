@@ -199,3 +199,12 @@ button:focus ~ #cursor {
         transform: translateY(0);
     }
 }
+
+/* Styling for media (image/video) inside todo items */
+.todo-list img,
+.todo-list video {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+}
